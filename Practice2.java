@@ -18,11 +18,9 @@ public class Practice2 {
         int a = in.nextInt();
         int b = in.nextInt();
             
-        if(a - b && b - a < 100) {
-            System.out.println("Yes");
-        } else { System.out.println("No");
-               }
-        
+        if(a - b == 100) System.out.println("Yes");
+        else  System.out.println("No");
+               
 
     }
 }
