@@ -38,22 +38,15 @@ public class Practice2 {
         int b1 = in.nextInt();
         int c1 = in.nextInt();
         
-        if(a1 > b1){
-            if(a1 > c1){
+         if(a1 >= b1 && a1 >= c1){
                 System.out.println(a1);
-            }
         }
-        if(b1 > a1){
-            if(b1 > c1){
+
+        else if(b1 >= a1 && b1 >= c1){
                 System.out.println(b1);
-            }
         }
-        if(c1 > a1){
-            if(b1 > c1){
-                System.out.println(c1);
-            }
-        }
-         
+
+        else System.out.println(c1);
 
     }
 }
