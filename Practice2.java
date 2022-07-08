@@ -36,6 +36,14 @@ public class Practice2 {
             44
            -12
     Вывод: -12
+ 
+  Задание 10
+    Напишите программу, где ввожу четыре целых числа. Найдите наибольшее четное число среди них. Если оно не существует, выведите Not Found.
+    Ввод: 12 37 200 45
+    Вывод:200
+    
+    Ввод: 19 37 201 453
+    Вывод:Not Found 
 */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -75,5 +83,7 @@ public class Practice2 {
         }
         else System.out.println(c2);
 
+        //task #10
+        
     }
 }
